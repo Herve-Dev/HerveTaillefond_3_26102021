@@ -351,7 +351,8 @@
   }
 }
 .location .items-location label {
-  padding-right: 10px;
+  margin-left: 60px;
+  margin-right: 10px;
 }
 .location input {
   border: none;
@@ -497,6 +498,7 @@
   align-items: center;
 }
 .container-sections .title-font--title {
+  font-size: 30px;
   width: 80%;
   margin-left: 20px;
   font-family: "Shrikhand";
