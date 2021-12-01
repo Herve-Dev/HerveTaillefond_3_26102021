@@ -1,0 +1,24 @@
+.head-menu {
+    @include display-center;
+    @include margin-padding;
+
+        .nav-menu {
+            display: flex;
+            align-items: center;
+            width: 100%;
+        
+                &__link {
+                    padding: 10px;
+        
+                        i {
+                            color: black;
+                        }
+                }
+                
+                &__logo {
+                    @include display-center;
+                    width: 100%;
+                }
+                    
+        }
+}

@@ -1,0 +1,36 @@
+footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    @include background-footer;    
+
+    ul{
+      list-style: none;
+      @include margin-padding;
+      margin-bottom: 20px;
+
+        li{
+          padding-left: 15px;
+          padding-bottom: 10px;
+          
+            .fas{
+              color: white;
+              padding-right: 5px;
+            }
+
+            a{
+              font-family: $text;
+              text-decoration: none;
+              color: white;
+            }
+        }
+    }
+
+      img {
+        padding: 10px;
+        padding-bottom: 20px;
+        width: 100px;
+        filter: brightness(20); //important a voir avec tuteur
+      }
+  }

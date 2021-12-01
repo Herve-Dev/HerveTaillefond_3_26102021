@@ -1,0 +1,94 @@
+.fonction-items {
+  @include display-center;
+  position: relative;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 25px;
+  width: 80%;
+  cursor: pointer;
+  background-color: $backgray;
+  box-shadow: 2px 8px 17px -7px rgba(0,0,0,0.45);
+  
+    @include breackpoint(desktop) {
+      height: 50px;
+    }
+
+    @include breackpoint(largescreen) {
+      height: 50px;
+    }
+
+    @include breackpoint(largescreen-xl) {
+      height: 70px;
+    }
+
+    &:hover, .fas:hover {
+      @include background-functioning;
+
+        h2 {
+        color: black;
+        }
+    }
+    
+    h2 {
+      font-size: 20px;
+    }
+
+    .number-fonction {
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      font-family: $text;               
+      width: 20px;
+      height: 20px;
+      border-radius: 100%;
+      color: white;
+      background-color: $primary;
+      top: 10;
+      right: 93%;
+      margin-right: 10px;
+
+        @include breackpoint(desktop) {
+      
+            @include margin-padding;
+            transition: 2s;
+            font-size: 25px;
+            right: 90%;
+            height: 100%;
+            border-radius: 15px 0 0 15px;
+            width: 10%;
+            align-items: center;   
+        } 
+
+        @include breackpoint(largescreen) {
+      
+          @include margin-padding;
+          transition: 2s;
+          font-size: 25px;
+          right: 90%;
+          height: 100%;
+          border-radius: 15px 0 0 15px;
+          width: 10%;
+          align-items: center;   
+        }
+      
+      @include breackpoint(largescreen-xl) {
+      
+        @include margin-padding;
+        transition: 2s;
+        font-size: 25px;
+        right: 90%;
+        height: 100%;
+        border-radius: 15px 0 0 15px;
+        width: 10%;
+        align-items: center;   
+      } 
+
+    }
+
+    .fas {
+      @include display-center;
+      margin: 5%;
+      opacity: 60%; 
+    }
+
+  }

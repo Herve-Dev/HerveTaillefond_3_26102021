@@ -1,0 +1,53 @@
+.container-restaurant {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+    background-color: $backgray;
+    
+    @include breackpoint(desktop) {
+    @include display-center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    }
+
+    @include breackpoint(largescreen) {
+    @include display-center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    }
+
+    @include breackpoint(largescreen-xl) {
+    @include display-center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    }
+
+        h2 {
+            margin-top: 40px;
+            margin-bottom: 20px;
+            margin-right: 50%;
+            
+            @include breackpoint(desktop) {
+                @include margin-padding($padding:25px);
+                width: 100%;
+            }
+
+            @include breackpoint(largescreen) {
+                @include margin-padding($padding:30px);
+                width: 100%;
+            }
+
+            @include breackpoint(largescreen-xl) {
+                @include margin-padding($padding:30px);
+                width: 100%;
+            }
+
+        }
+}

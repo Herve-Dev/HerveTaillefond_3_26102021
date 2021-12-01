@@ -1,0 +1,43 @@
+.location {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-shadow: inset 0px 6px 11px -6px #000000;
+    @include background-search-input;
+    
+      .items-location {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 5px;
+        cursor: pointer;
+
+        @include breackpoint(mobile-tablet) {
+          
+        }
+        @include breackpoint(desktop) {
+            width: 80%;
+        }
+        @include breackpoint(largescreen) {
+                
+        }
+
+          label {
+            padding-right: 10px;
+          }
+      }
+
+        input {
+          border: none;
+          outline: none;
+          @include background-search-input;
+          font-family: $text;
+            &::placeholder{
+              opacity: 1;
+              font-family: $text;
+              color: black;
+            }
+        }
+  }
