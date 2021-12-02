@@ -781,7 +781,8 @@ footer ul li a {
 footer img {
   padding: 10px;
   padding-bottom: 20px;
-  width: 100px;
+  width: 150px;
+  height: auto;
   filter: brightness(20);
 }
 
@@ -954,6 +955,8 @@ footer img {
   }
 }
 header img {
+  width: 100%;
+  height: auto;
   padding: 10px;
 }
 header section {
