@@ -53,7 +53,6 @@
   }
   50% {
     color: #9356dc;
-    color: linear-gradient(175deg, #ff79da 30%, #9356dc 96%, #020024 100%);
     transform: scale(2);
     opacity: 1;
   }
@@ -199,7 +198,6 @@
 .font-heart .fa-heart:hover {
   font-weight: bold;
   color: #9356dc;
-  color: linear-gradient(0deg, #9356dc 30%, #ff79da 100%);
   animation: pulse 3s ease infinite;
   text-shadow: 2px 2px #ff79da;
 }
@@ -278,7 +276,6 @@
   border-radius: 100%;
   color: white;
   background-color: #9356DC;
-  top: 10;
   right: 93%;
   margin-right: 10px;
 }
@@ -526,7 +523,6 @@
 .container-sections .title-font--font:hover {
   font-weight: bold;
   color: #9356dc;
-  color: linear-gradient(0deg, #9356dc 30%, #ff79da 100%);
   animation: pulse 3s ease infinite;
   text-shadow: 2px 2px #ff79da;
 }
