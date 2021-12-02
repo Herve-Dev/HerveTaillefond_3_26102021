@@ -498,10 +498,25 @@
   align-items: center;
 }
 .container-sections .title-font--title {
-  font-size: 30px;
+  font-size: 25px;
   width: 80%;
   margin-left: 20px;
   font-family: "Shrikhand";
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .container-sections .title-font--title {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .container-sections .title-font--title {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container-sections .title-font--title {
+    font-size: 30px;
+  }
 }
 .container-sections .title-font--font {
   color: black;
@@ -610,13 +625,13 @@
   padding: 0;
 }
 .menu__titles--starter {
-  width: 15%;
+  width: 50px;
 }
 .menu__titles--dish {
-  width: 13%;
+  width: 40px;
 }
 .menu__titles--dessert {
-  width: 10%;
+  width: 50px;
 }
 .menu__articles {
   display: flex;
@@ -812,13 +827,13 @@ footer img {
   padding: 0;
 }
 .menu__titles--starter {
-  width: 15%;
+  width: 50px;
 }
 .menu__titles--dish {
-  width: 13%;
+  width: 40px;
 }
 .menu__titles--dessert {
-  width: 10%;
+  width: 50px;
 }
 .menu__articles {
   display: flex;
