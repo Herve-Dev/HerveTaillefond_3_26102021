@@ -989,6 +989,14 @@ header section .information-header h1, header section .information-header p {
   text-align: center;
 }
 
+h1, p, h2, h3 {
+  font-family: "Roboto";
+}
+
+li {
+  list-style: none;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -1002,14 +1010,6 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
-
-h1, p, h2, h3 {
-  font-family: "Roboto";
-}
-
-li {
-  list-style: none;
 }
 
 /*# sourceMappingURL=style.css.map */
