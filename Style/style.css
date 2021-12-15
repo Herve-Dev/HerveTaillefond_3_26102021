@@ -164,10 +164,9 @@
 }
 
 .btn {
-  height: 45px;
-  width: 250px;
-  margin: 50px;
-  border-radius: 20px;
+  height: 50px;
+  width: 55%;
+  border-radius: 25px;
   cursor: pointer;
   border: none;
   color: white;
@@ -376,7 +375,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 300px;
+  height: 200px;
   position: relative;
 }
 .container-menu picture img {
@@ -390,7 +389,8 @@
   align-items: center;
   width: 100%;
   position: relative;
-  margin: 40px;
+  margin-bottom: 10px;
+  margin-top: 30px;
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .container-menu {
@@ -485,7 +485,7 @@
   width: 100%;
   background-color: #ecf0f1;
   position: relative;
-  bottom: 50px;
+  bottom: 25px;
   border-radius: 35px 35px 0 0;
 }
 .container-sections .title-font {
@@ -493,12 +493,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
 }
 .container-sections .title-font--title {
   font-size: 25px;
-  width: 80%;
-  margin-left: 20px;
+  width: 70%;
+  margin-left: 30px;
   font-family: "Shrikhand";
+  white-space: nowrap;
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .container-sections .title-font--title {
@@ -519,6 +521,9 @@
   color: black;
   transition: 0.3s;
   cursor: pointer;
+  width: 20%;
+  margin-left: 10%;
+  font-size: x-large;
 }
 .container-sections .title-font--font:hover {
   font-weight: bold;
@@ -600,13 +605,16 @@
   display: flex;
   flex-direction: column;
   width: 90%;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 .menu__titles {
   display: flex;
   flex-direction: column;
   padding: 10px;
   margin: 0;
+  margin-bottom: 3px;
+  padding-top: 10px;
+  height: 100%;
 }
 .menu__titles--title {
   margin: 0;
@@ -635,7 +643,7 @@
   width: 100%;
   background-color: white;
   border-radius: 15px;
-  margin-top: 20px;
+  margin-bottom: 20px;
   cursor: pointer;
   height: 75px;
   box-shadow: -1px 10px 5px -4px rgba(0, 0, 0, 0.21);
@@ -668,9 +676,10 @@
 .menu__legend {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 75%;
   margin-top: 5px;
   padding: 10px;
+  height: 100%;
 }
 .menu__legend--title {
   width: 100%;
@@ -690,7 +699,7 @@
   padding: 0;
 }
 .menu__legend:hover {
-  max-width: 70%;
+  max-width: 50%;
 }
 .menu__price {
   display: flex;
@@ -704,7 +713,7 @@
   margin: 0;
   padding: 0;
   align-items: flex-end;
-  justify-content: flex-end;
+  justify-content: center;
   width: 100%;
   padding: 10px;
   text-overflow: ellipsis;
@@ -765,6 +774,7 @@
   }
 }
 footer {
+  position: relative;
   width: 100%;
   height: auto;
   display: flex;
@@ -802,13 +812,16 @@ footer img {
   display: flex;
   flex-direction: column;
   width: 90%;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 .menu__titles {
   display: flex;
   flex-direction: column;
   padding: 10px;
   margin: 0;
+  margin-bottom: 3px;
+  padding-top: 10px;
+  height: 100%;
 }
 .menu__titles--title {
   margin: 0;
@@ -837,7 +850,7 @@ footer img {
   width: 100%;
   background-color: white;
   border-radius: 15px;
-  margin-top: 20px;
+  margin-bottom: 20px;
   cursor: pointer;
   height: 75px;
   box-shadow: -1px 10px 5px -4px rgba(0, 0, 0, 0.21);
@@ -870,9 +883,10 @@ footer img {
 .menu__legend {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 75%;
   margin-top: 5px;
   padding: 10px;
+  height: 100%;
 }
 .menu__legend--title {
   width: 100%;
@@ -892,7 +906,7 @@ footer img {
   padding: 0;
 }
 .menu__legend:hover {
-  max-width: 70%;
+  max-width: 50%;
 }
 .menu__price {
   display: flex;
@@ -906,7 +920,7 @@ footer img {
   margin: 0;
   padding: 0;
   align-items: flex-end;
-  justify-content: flex-end;
+  justify-content: center;
   width: 100%;
   padding: 10px;
   text-overflow: ellipsis;

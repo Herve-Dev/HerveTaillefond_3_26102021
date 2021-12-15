@@ -7,8 +7,9 @@
         picture {
             @include display-center;
             width: 100%;
-            height: 300px;
+            height: 200px;
             position: relative;
+            
 
                 img {
                     @include pics-menu;
@@ -19,7 +20,8 @@
             @include display-center;
             width: 100%;
             position: relative;
-            margin: 40px;
+            margin-bottom: 10px; // modif évaluateur
+            margin-top: 30px; // modif évaluateur
         }
 
     @include breackpoint(desktop) {

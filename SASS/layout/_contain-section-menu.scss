@@ -4,18 +4,21 @@
     width: 100%;
     background-color: $backgray;
     position: relative;
-    bottom: 50px;
+    bottom: 25px; // modif évaluateur
     border-radius: 35px 35px 0 0;
 
         .title-font {
             width: 100%;
             @include display-center;
+            margin-top: 20px; // modif évaluateur
             
                 &--title {
                     font-size: 25px;
-                    width: 80%;
-                    margin-left: 20px;
+                    width: 70%;
+                    margin-left: 30px;
                     font-family: $title_logo;
+                    white-space: nowrap; // modif évaluateur
+                    
 
                     @include breackpoint(desktop) {
                         font-size: 30px;
@@ -28,10 +31,14 @@
                     }
                     
                 }
+
                 &--font {
                     color: black;
                     transition: 0.3s;
                     cursor: pointer; 
+                    width: 20%; // modif évaluateur
+                    margin-left: 10%; // modif évaluateur
+                    font-size: x-large; // modif évaluateur 
                     
                         &:hover {
                         font-weight: bold;
